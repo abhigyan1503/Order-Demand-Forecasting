@@ -1,0 +1,46 @@
+
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# M5 dataset / processed data
+data/raw/
+data/processed/
+data/processed_data3/
+data/merged_data/
+*.csv
+*.parquet
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+*.txt
+
+# MLflow
+mlruns/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+*.zip
+
+anaconda_projects/
+
+notebooks/Untitled*.ipynb
+notebooks/Feature Engineering.ipynb
